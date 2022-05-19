@@ -1,0 +1,44 @@
+.card {
+    position: relative;
+    width: 500px;
+    height: 495px;
+    padding: 60px;
+  }
+  
+  .card-ellipse {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 90%;
+    z-index: 0;
+    background-image: url('./img/Ellipse-50.svg');
+    background-size: cover;
+  }
+  
+  .card-category, .card-link {
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    z-index: 10;
+  }
+  .card-category {
+    opacity: 0.75;
+  }
+  .card-category::before {
+    content: '| ';
+  }
+  .card-link {
+    text-decoration: underline;
+  }
+  
+  .card-heading {
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 40px;
+    z-index: 10;
+  }
+  
